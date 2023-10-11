@@ -1,0 +1,33 @@
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+header {
+    border-bottom: 2px dashed;
+    width: 100%;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    color:white;
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    cursor: pointer;
+    border: hidden;
+    background:linear-gradient(45deg, red 3%, black 4%, green 10%);
+}
+div:hover {
+    border-radius: 24px;
+    border: 24px solid black;
+    
+}
+footer{
+    background: repeating-linear-gradient(45deg, red 40px, black 40px, green 10px);
+    color: white;
+}
